@@ -38,7 +38,7 @@
 }
 
 .jump{
-    animation: jump 1s infinite;
+    animation: jump 1s infinite ease-out;
 }
 
 @keyframes jump{
@@ -46,7 +46,15 @@
         bottom: 0;
     }
 
+    40%{
+        bottom: 180px;
+    }
+
     50%{
+        bottom: 180px;
+    }
+
+    60%{
         bottom: 180px;
     }
 

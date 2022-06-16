@@ -1,5 +1,13 @@
-const mario = document.querySelector('.mario')
+const mario = document.querySelector('.mario');
 
-document.addEventListener('keydown', jump)
+const jump = () => {
+    mario.classList.add('jump');
 
-const jump ()
+    setTimeout(() => {
+        mario.classList.remove('jump');
+    }, 1000)
+}
+
+const loop = setInterval() =
+
+document.addEventListener('keydown', jump);
