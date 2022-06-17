@@ -6,7 +6,7 @@
 
 .game-board{
     width: 100%;
-    height: 100vh;
+    height: 100vh; 
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -63,10 +63,25 @@
     }
 }
 
-.clouds{
+.clouds1{
     position: absolute;
+    top: 25px;
     width: 550px;
     animation: cloud-animation 10s linear infinite;
+}
+
+.clouds2{
+    position: absolute;
+    top: 500px;
+    width: 100px;
+    animation: cloud-animation 20s linear infinite;
+}
+
+.clouds3{
+    position: absolute;
+    top: 350px;
+    width: 200px;
+    animation: cloud-animation 15s linear infinite;
 }
 
 @keyframes cloud-animation{
